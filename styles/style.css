@@ -1,0 +1,89 @@
+/* Fonts */
+*{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Shared Styles */
+.common-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.common-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+}
+
+.common-btn{
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 20px 25px;
+    font-style: 1.25rem;
+    font-weight: 600;
+    color: #FFF;
+    border: 0;
+
+}
+
+
+
+/* Header Section Styles */
+/* ------------------------ */
+header{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: rgba(255, 144, 14, 0.10);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* Banner Styles */
+.banner{
+    margin-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.banner-content{
+    text-align: center;
+}
+
+.banner-title{
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.banner-btn{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+
+.banner-img{
+    display: flex;
+    justify-content: center;
+}
