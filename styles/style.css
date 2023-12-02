@@ -36,13 +36,13 @@ header{
     padding-top: 50px;
     padding-bottom: 30px;
     background: rgba(255, 144, 14, 0.10);
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
-    padding-left: 200px;
-    padding-right: 200px;
 }
 
 nav ul{
@@ -62,8 +62,6 @@ nav a {
 /* Banner Styles */
 .banner{
     margin-top: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
 }
 
 .banner-content{
@@ -86,4 +84,106 @@ nav a {
 .banner-img{
     display: flex;
     justify-content: center;
+}
+
+/* Team section Styles */
+.team-container{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.team-content{
+    margin-left: 50px;
+}
+
+.quick-list{
+    color: #727272;
+}
+
+.feature-list{
+    color: #FF900E;
+}
+
+/* Responsive media query for Mobile Device */
+/* ------------------------------------------- */
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 15px;
+        text-align: center;
+    }
+    
+    nav{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .nav-title{
+        font-size: 2rem;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav li{
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    .banner{
+        margin-top: 50px;
+    }
+
+    .banner-title{
+        font-size: 2.5rem;
+    }
+
+    .banner-btn{
+        margin-bottom: 40px;
+    }
+
+    .banner-img img{
+        width: 100%;
+    }
+
+}
+
+
+/* Responsvie Media Query For Medium device */
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    
+    header{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    nav{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul{
+        justify-content: center;
+    }
+
+    nav li{
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+
+    .banner{
+        margin-top: 70px;
+    }
+    .banner-img img{
+        width: 100%;
+    }
 }
